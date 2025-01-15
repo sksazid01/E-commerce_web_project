@@ -1,0 +1,10 @@
+/* Apply white text globally to all elements with this class */
+.white-text {
+  color: rgb(25, 144, 212);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+

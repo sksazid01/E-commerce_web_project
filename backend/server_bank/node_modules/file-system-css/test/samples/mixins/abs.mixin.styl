@@ -1,0 +1,11 @@
+toUnit(prop, value, unit=px)
+  if value is not null
+    {prop} unit(value, unit)
+
+
+abs-pos(top = 0, right = 0, bottom = 0, left = 0, unit=px)
+  position absolute
+  toUnit 'left', left, unit
+  toUnit 'top', top, unit
+  toUnit 'right', right, unit
+  toUnit 'bottom', bottom, unit
